@@ -1,0 +1,19 @@
+/*Mohammed Deeb, 922875899, MohammedDeeb261*/
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("../fonts/LibreBaskerville-Regular.ttf") format('truetype');
+}
+
+.move-left {
+    animation: moveLeft 1s linear;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }

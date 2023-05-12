@@ -1,0 +1,56 @@
+/*Mohammed Deeb, 922875899, MohammedDeeb261*/
+
+body {
+    min-height: 100vh;
+    display: grid;
+    
+    background-image: url("../images/background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "LibreBaskerville";
+    padding-left: 80px;
+    padding-top: 80px;
+   
+}
+
+
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px #fffaf0;
+    color: antiquewhite;
+    text-decoration: "bold"; 
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:active{
+    font-size: 45px;
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px black;
+}
+
+a:hover {
+    font-size: 50px;
+}
+
+.options{
+    display: grid;
+    padding-bottom: 20px;
+}
+
+.option{
+    font-size: 45px;
+    -webkit-text-stroke: 1px black;
+    color: 	#fffaf0;
+}
+
